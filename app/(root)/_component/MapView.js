@@ -4,7 +4,7 @@ import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { icon } from "leaflet";
 
-export const MapView = () => {
+const MapView = () => {
   const ICON = icon({
     iconUrl: "/marker-icon.png",
     iconSize: [24, 32],
@@ -24,3 +24,5 @@ export const MapView = () => {
     </MapContainer>
   );
 };
+
+export default MapView;

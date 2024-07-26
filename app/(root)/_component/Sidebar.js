@@ -100,58 +100,6 @@ export const Sidebar = () => {
                       </span>
                     </a>
                   </li>
-
-                  <li>
-                    <a
-                      href='#'
-                      className='group relative flex justify-center rounded px-2 py-1.5 text-gray-500 hover:bg-gray-50 hover:text-gray-700'
-                    >
-                      <svg
-                        xmlns='http://www.w3.org/2000/svg'
-                        className='size-5 opacity-75'
-                        fill='none'
-                        viewBox='0 0 24 24'
-                        stroke='currentColor'
-                        strokeWidth='2'
-                      >
-                        <path
-                          strokeLinecap='round'
-                          strokeLinejoin='round'
-                          d='M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z'
-                        />
-                      </svg>
-
-                      <span className='invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded bg-gray-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible'>
-                        Invoices
-                      </span>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href='#'
-                      className='group relative flex justify-center rounded px-2 py-1.5 text-gray-500 hover:bg-gray-50 hover:text-gray-700'
-                    >
-                      <svg
-                        xmlns='http://www.w3.org/2000/svg'
-                        className='size-5 opacity-75'
-                        fill='none'
-                        viewBox='0 0 24 24'
-                        stroke='currentColor'
-                        strokeWidth='2'
-                      >
-                        <path
-                          strokeLinecap='round'
-                          strokeLinejoin='round'
-                          d='M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z'
-                        />
-                      </svg>
-
-                      <span className='invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded bg-gray-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible'>
-                        Account
-                      </span>
-                    </a>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -186,7 +134,7 @@ export const Sidebar = () => {
           </div>
         </div>
 
-        {show && (
+        {/* {show && (
           <div className='flex max-h-dvh flex-1 flex-col justify-between border-e bg-white '>
             <div className='px-4 py-6 w-96'>
               <ul className='mt-14 space-y-1'>
@@ -316,7 +264,7 @@ export const Sidebar = () => {
               </ul>
             </div>
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );

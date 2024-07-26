@@ -1,10 +1,13 @@
 import React from "react";
-import { MapView } from "./_component/MapView";
+import dynamic from "next/dynamic";
 
 const RootPage = () => {
+  const ComponentC = dynamic(() => import("./_component/MapView"), {
+    ssr: false,
+  });
   return (
     <div className='relative'>
-      <MapView />
+      <ComponentC />
     </div>
   );
 };

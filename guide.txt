@@ -3,3 +3,4 @@
 3. Install leaflet & react-leaflet 
 4. Setting Layout <Navbar> <Sidebar> <Main>
 5. Install Lucide React
+6. install Kinde Auth
