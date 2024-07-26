@@ -4,7 +4,7 @@ import { Sidebar } from "./_component/Sidebar";
 const Rootlayout = ({ children }) => {
   return (
     <div className='h-auto relative dark:bg-gray-900 w-screen'>
-      <div className='fixed inset-x-0 top-0 h-20 mt-2 .container z-50 mx-2 bg-white rounded-xl'>
+      <div className='fixed inset-x-0 top-0 h-18 py-2 mt-2 .container z-50 mx-2 bg-white rounded-xl'>
         <Navbar />
       </div>
 

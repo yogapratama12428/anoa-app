@@ -2,25 +2,18 @@ import Image from "next/image";
 
 export const Navbar = () => {
   return (
-    <div className='sticky top-0 items-center flex justify-between '>
-      <div className='my-auto'>
+    <div className='sticky top-0 items-center flex justify-between'>
+      <div className='my-auto flex flex-row w-auto gap-2'>
         <Image
-          src='/next.svg'
+          src='/googlemaps.svg'
           alt='logo'
-          width={100}
-          height={100}
-          className='my-6 mx-5'
+          width={40}
+          height={40}
+          className='mx-1 my-2'
         />
+        <div className='text-black text-xl my-auto'>Anoa Apps</div>
       </div>
-      <div>
-        <Image
-          src='/next.svg'
-          alt='logo'
-          width={80}
-          height={80}
-          className='rounded-full'
-        />
-      </div>
+      {/* Profil */}
     </div>
   );
 };
